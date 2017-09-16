@@ -1,0 +1,17 @@
+screen  : "MAIN_PAGE",    //["MAIN_PAGE", "IMAGE"],
+data    :   {   currentPage: 1
+                link: "http://api.test.com/jsonformat.json"
+                isFetching: false, //[bool]
+                isLoadError: false
+                items: [{
+                            imageSmallUrl: "http://test.com/imageSmall.jpeg",
+                            imageLargeUrl: "http://test.com/imageLarge.jpeg",
+                            isloaded     : false        //[bool]
+                            author       : "Author name",
+                            title        : "Picture Title",
+                            id           : 12345        //[integer]
+                        },
+                    imgObj1,
+                    imgObj2,
+                    ]
+            },
